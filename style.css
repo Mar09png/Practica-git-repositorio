@@ -5,7 +5,7 @@ font-family: 'Poppins', sans-serif;}
 
 /*Estilo general*/
 body{
-    background: #f2f2f2;
+    background: #362c2c;
     color: white;
     padding: 20px;
     text-align: center;
@@ -18,3 +18,27 @@ nav ul{
     display: flex;
     justify-content: center;
 }
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a {
+    color:#22c55e;
+    text-decoration: none;
+    front-weight: bold;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+/*contenido principal*/
+main{
+    padding: 20px;
+    max-width:900px;
+    margin:auto;
+}
+/*Footer*/
+footer{
+    background-color: #22c55e;
+    color: #362c2c;
+    text-align: center;
+    padding: 10px;
+margin-top: 20px;}
